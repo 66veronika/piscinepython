@@ -3,3 +3,6 @@
 string = input()
 string = string.swapcase()
 print(string)
+
+
+#print(input().swapcase())

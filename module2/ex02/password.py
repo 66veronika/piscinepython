@@ -1,0 +1,8 @@
+#! /usr/bin/env python3
+
+password = "Python is awesome"
+n = input()
+if n == password:
+	print("ACCESS GRANTED")
+else:
+	print("ACCESS DENIED")
