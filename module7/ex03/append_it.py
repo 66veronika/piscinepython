@@ -4,7 +4,9 @@ import sys
 if len(sys.argv) < 2:
 	print("none")
 	sys.exit()
+
+needle = "ism"
 par = sys.argv[1:]
-print("parameters:", len(par))
 for word in par:
-	print(f"{word}: {len(word)}")
+	if word.find("ism", len(word) - 3) == -1:
+			print(f"{word}ism")
