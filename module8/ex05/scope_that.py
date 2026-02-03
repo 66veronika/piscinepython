@@ -8,3 +8,11 @@ print(f"before: {x}")
 
 add_one(x)
 print(f"after: {x}")
+
+#=======================
+
+# void	add_one(int x)
+# {
+# 	x++;
+# }
+

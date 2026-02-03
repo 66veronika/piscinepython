@@ -30,10 +30,9 @@ while i < len(par):
 	if par[i] == "z":
 		count += 1
 	i += 1
-if count >= 1:
-	hl = 0
-	while hl < count:
-		print("z", end="")
-		hl += 1
+
+if (count > 0):
+	print(count * 'z')
 else:
 	print("none")
+

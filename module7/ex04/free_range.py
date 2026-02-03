@@ -10,8 +10,5 @@ end = int(sys.argv[2])
 if start >= end:
 	print("none")
 	sys.exit()
-array = []
-x = range(start, end + 1)
-for n in x:
-	array.append(n)
-print (array)
+
+print (list(range(start, end + 1)))
